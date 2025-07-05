@@ -2,9 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>Gallery</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
@@ -12,16 +11,17 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script type="module" src="./js/1-gallery.js" defer></script>
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css"
+      href="https://unpkg.com/simplelightbox/dist/simple-lightbox.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <a class="nav-link" href="./index.html">Home</a>
     <main>
-      <a class="nav-link" href="./1-gallery.html">Gallery</a>
-      <a class="nav-link" href="./2-form.html">Form</a>
+      <div class="container"><ul class="gallery"></ul></div>
     </main>
   </body>
 </html>
