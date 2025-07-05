@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
+      integrity="sha512-gnAN+RgTMylunXI7AMg+PtcUGpKZFkZJoFIkAWvdPFRrFJz3p2tx4+9xbjILRfN7CzoViMgS8vSf06fSQzWZjA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/vanilla-app-template/2-form.js"></script>
+    <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/styles-DTJuzk84.css">
+  </head>
+  <body>
+    <a class="nav-link" href="./index.html">Home</a>
+    <main>
+      <div class="container">
+        <form class="feedback-form" autocomplete="off">
+          <label class="feedback__label">
+            Email
+            <input
+              class="feedback__input"
+              type="email"
+              name="email"
+              autofocus
+            />
+          </label>
+          <label class="feedback__label">
+            Message
+            <textarea
+              class="feedback__textarea"
+              name="message"
+              rows="8"
+            ></textarea>
+          </label>
+          <button class="feedback__button" type="submit">Submit</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
