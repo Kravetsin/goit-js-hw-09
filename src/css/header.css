@@ -17,6 +17,7 @@
   gap: 40px;
 }
 .nav-link {
+  font-family: 'Montserrat', sans-serif;
   position: relative;
   display: block;
   font-weight: 500;
